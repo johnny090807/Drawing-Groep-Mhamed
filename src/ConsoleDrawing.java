@@ -11,9 +11,9 @@ public class ConsoleDrawing {
         Oval myOval = new Oval(15, 7);
         System.out.println(myOval);
 
-        Triangle myTriangle = new Triangle(15, 7);
+        Triangle myTriangle = new Triangle(15, 8);
         System.out.println(myTriangle);
-//          HAHA IK BEN EEN TERINGLEIJER
+
 //        System.out.println();
 //        System.out.println("Opdracht 2-3");
 //        System.out.println();

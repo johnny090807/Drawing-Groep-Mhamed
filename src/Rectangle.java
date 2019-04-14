@@ -6,15 +6,11 @@ public class Rectangle extends Shape {
 
     @Override
     public void fill() {
-        for (int i = 0; i < SIZEY ; i++) {
-            for (int j = 0; j < SIZEX ; j++) {
-System.out.print("*");
+        for (int PIXELX = 0; PIXELX < SIZEX; PIXELX++) {
+            for (int PIXELY = 0; PIXELY < SIZEY; PIXELY++) {
+                    fillPixel(PIXELX, PIXELY);
             }
-            System.out.println();
         }
-
-        }
-
-        // TODO
     }
+}
 
